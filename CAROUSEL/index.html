@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Component</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <style>
+        * {
+            margin 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+        .carousel{
+            width: 800px;
+            margin: 100px auto;
+            background-color: #087f5b; 
+            border-radius: 8px;
+            position: relative;
+            padding: 32px;
+
+            display: flex;
+            align-items: center;
+            padding-left: 130px;
+            gap: 86px;
+        
+
+       
+        }
+        .carousel img{
+            height: 200px;
+            border-radius: 8px;
+            transform: scale(1.9);
+            box-shadow: 0 12px 24px; rgba(0,0,0,.25);
+
+        }
+       
+        .testimonial-text{ 
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 32px;
+        color: #e6fcf5;
+
+        }
+        .testimonial-author{
+        font-size: 14px;
+        margin-bottom: 4px;
+        color: #c3fae8;
+
+        }
+        .testimonial-job{
+        font-size: 12px;
+        color: #c3fae8;
+        }
+        /*the controls*/
+        .btn{
+            background-color: #fff;
+            border: none;
+            height: 40px; 
+            width: 40px;
+            border-radius: 50px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn--left{
+            left: 0;
+            transform: translate(-50%, -50%);
+
+
+        }
+        .btn--right{
+            right: 0;
+
+
+        }
+        .btn-icon{
+            height: 24px;
+            width: 24px;
+            stroke: #087f5b;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img src="images/AOOOO.png" alt="Yomi odusanya">
+        <blockquote class="testimonial">
+            <p class="testimonial-text">
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ratione vel accusamus quod blanditiis deleniti, 
+                mollitia cupiditate eaque illum eum, et quae unde est ut possimus 
+                magni molestias excepturi velit esse nam?"
+            </p>
+            <p class="testimonial-author">
+                Yomi Odusanya
+            </p>
+            <p class="testimonial-job">
+                Web Developer
+            </p>
+        </blockquote> 
+        <button class="btn btn--left">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 fill="none" 
+                 viewBox="0 0 24 24" 
+                 stroke-width="1.5" 
+                 stroke="currentColor" 
+                 class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+              
+        </button>
+        <button class="btn btn--rigt">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                 fill="none" 
+                 viewBox="0 0 24 24" 
+                 stroke-width="1.5" 
+                 stroke="currentColor" 
+                 class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+              
+              
+        </button>  
+        
+    </div>
+</body>
+</html>

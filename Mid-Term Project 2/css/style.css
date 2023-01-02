@@ -178,48 +178,30 @@
     -moz-transition: all ease-out 0.3s;
     -ms-transition: all ease-out 0.3s;
     -o-transition: all ease-out 0.3s;
-} 
-#card-custom{
-    width: 300px;
-    height: 350px;
-    margin-top: 30%;
-    margin-left: 20%;
-    background: rgba(0, 0, 100, 0.20);
-    backdrop-filter: blur(30px);
 }
-#save{
-    margin-top: 20%;
+.main-banner{
+    position: relative;
+    width: 80%;
+    margin-left: 12.5%;
 }
-#save .save-image{
-    margin-top: -80px;
+.main-banner img{
+    width: 100%;
+   margin-top: 10%;
+   border-radius: 10px 100px 10px;
 }
-#spend{
-    margin-top: 20%;
+.heading{
+    color: #DA1C5C;
+    position: absolute;
+    top: 35%;
+    margin: 20px 50px;
 }
-#spend .spend-image{
-    margin-top: -5px;
-}
- 
 
-.spend-money{
-    margin-top: 20%;
-    padding: 0 10px;
+.join{
+    margin-top: 8%;
 }
-#invest{
-    margin-top: 20%;
-}
-#invest .invest-image{
-
-    margin-left: 20%;
-    margin-top: -20%;
-}
-/* Security  */
 .pcy {
-    font-family: poppins;
-   
-  
-   
-    border-radius: 10px;
+    /* font-family: poppins; */
+   border-radius: 10px;
     width: auto;
     position: fixed;
     padding: 10px 15px;
@@ -231,6 +213,7 @@
     justify-content: space-between;
    
 }
+
 .pcy p {
     align-items: center;
     padding: auto;
@@ -238,7 +221,17 @@
     white-space: nowrap;
     font-size: 1rem;
     line-height: 1.28;
+    
 }
+#card-custom{
+    width: 300px;
+    height: 350px;
+    
+    margin-left: 25%;
+    background: rgba(0, 0, 100, 0.20);
+    backdrop-filter: blur(30px);
+}
+
 
 
    
